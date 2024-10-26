@@ -1,0 +1,72 @@
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+
+  .label {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5em;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 65vh;
+  }
+
+  label {
+    font-family: Arial, sans-serif; /* Cambia la fuente */
+    font-size: 14px; /* Cambia el tamaño de la fuente */
+    color: white; /* Cambia el color del texto */
+    margin-bottom: 5px; /* Añade un margen inferior */
+    display: block; /* Asegura que cada label ocupe una línea completa */
+  }
+  
+  div {
+    margin-bottom: 10px; 
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+  }
+
+  .zoomed-div {
+    transform: scale(1.5); /* Adjust the scale value as needed */
+    transform-origin: top left; /* Adjust the origin point as needed */
+}
+
+  button {
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+  }
+
